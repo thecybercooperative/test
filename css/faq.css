@@ -1,0 +1,96 @@
+/*FAQ: FAQ*/
+
+#faq{
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 13vh;
+    text-align: center;
+}
+
+#faq i{
+	font-size: 30px;
+}
+
+#faq .remove{
+	display: none;
+}
+
+#faq .add{
+	display: block;
+}
+
+#faq h1{
+    margin-bottom: 30px;
+}
+
+#faq a{
+    color: rgb(255, 255, 255);
+}
+
+/*Accordion*/
+.accordion{
+	max-width: 50%;
+	padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.accordion-item{
+	background-color: transparent;
+	margin-bottom: 15px;
+	padding: 10px;
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.accordion-title{
+	color: #222222;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 1rem 0;
+	cursor: pointer;
+    transition-duration: 0.5s;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.accordion-title:hover{
+    color: #5757a8;
+}
+
+.accordion-title h2{
+	width: 80%;
+    font-size: 18px;
+}
+
+.accordion-content{
+    max-height: 0;
+    overflow: hidden;
+	position: relative;
+	background-color: #5757a8;
+    transition: max-height 0.6s;
+    font-family: poppins;
+    font-weight: 400;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.accordion-content p{
+	padding: 2rem;
+	color: white;
+    font-size: 18px;
+}
+
+/*For mobile phones*/
+@media screen and (max-width: 790px) {
+  .accordion{
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,106 @@
+/*Empty sections*/
+#about-page{
+  width: 800px;
+  margin: 0 auto; 
+  margin-top: 13vh;
+  margin-bottom: 40px;
+}
+
+#about-page p{
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.about-section{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.index-item{
+  font-size: 22px;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.index-sub-item{
+  font-size: 18px;
+  list-style-type: disc;
+  margin-left: 40px;
+}
+
+#about-page h2{
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#about-page h3{
+  font-size: 25px;
+}
+
+/*About: Know the Mods*/
+#lars{
+  color: #71ac2f;
+}
+
+#yuzu{
+  color: #00b3b3;
+}
+
+#owner{
+  color: #d64be6;
+}
+
+#treas{
+  color: #df9395;
+}
+
+#lee{
+  color: #06CC2A;
+}
+
+#nessie{
+  color: #e9347c;
+}
+
+.mod{
+  color: #1eaa77;
+}
+
+.meet-box{
+  height: 100px;
+  width: 220px;
+  margin: 15px;
+  border-radius: 10px;
+  border: 1px solid #d4d4d4;
+  display: flex;
+}
+
+.meet-box h4{
+  margin: 0;
+}
+
+.meet-box p{
+  margin: 2px !important;
+}
+
+#about-page .flex-row{
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+@media screen and (max-width: 790px) {
+  #about-page h2{
+    font-size: 29px;
+  }
+  #about-page p{
+    font-size: 17px;
+  }
+  #about-page h3{
+    font-size: 24px;
+  }
+  #about-page{
+    width: 100%;
+  }
+}
